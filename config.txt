@@ -1,0 +1,4 @@
+git config --global user.name GabriellVizon
+git config --global user.email gabrielfelipevizon2020@gmail.com
+
+Abrir o terminal Ctrl + '

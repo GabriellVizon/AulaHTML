@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        AulaHTML
+    </title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace; 
+            background-color: rgb(192, 21, 21);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- TITULOS -->
+    <h1 id="titulo">titulo 1</h1>
+    <h2 class="titulo">titulo 2</h2>
+    <h3>titulo 3</h3>
+    <h4 class="titulo">titulo 4</h4>
+    <h5>titulo 5</h5>
+    <h6>titulo 6</h6>
+
+    <!-- PARÁGRAFOS -->
+    <p>
+        RAIO IRRTA LER <br>
+        AA EU VO GOZ... <br>
+        SECRETAARIAAAAAAAA QUE TABAIA O DIA INTEIRO COMIGO
+    </p>
+    <hr>
+    <p>
+        ZERÇO <br>
+        MAXIXI <br>
+        XICLETI
+    </p>
+    <pre>
+        seloko mano testando o baguio
+        nouaaaaaaaaaaaaaaaaaaaaaaaaaa
+        MASKEIKOoo
+    </pre>
+
+    <!-- Tags de formatação -->
+    <b>texto em negrito</b>
+    <br>
+    <strong>Texto Importante</strong>
+    <br>
+    <i>Texto em Italico</i>
+    <br>
+    <em>Texto em enfase</em>
+    <br>
+    <mark>Texto Marcado</mark>
+    <br>
+    <small>Texto Menor</small>
+    <br>
+    <del>Texto riscado</del>
+    <br>
+    <ins>Texto Inserido</ins>
+    <br>
+    texto<sub>Texto Subscrito</sub>  
+    <br>
+    texto<sup>Texto Sobreescrito</sup>
+    <br>
+    <!-- Exemplos -->
+    H <sub>2</sub>O
+    <br>
+    25 <sup>2</sup>
+    <br>
+    <br>
+    <!-- Links -->
+    <a href="https://www.google.com.">
+        Abrir o Google na mesma Aba
+    </a>
+    <br>
+    <a href="https://www.google.com." target="_blank">
+        Abrir o Google em uma nova aba
+    </a>
+    <br>
+    <a href="mailto:emaildestino@email.com">
+        Enviar Email
+    </a>
+    <br>
+    <a href="tel:14987654321">
+        Ligar pro Morfeutico
+    </a>
+    <br>
+    <!-- <a href="#">ir para secao XICLETI</a> -->
+    <br><br>
+
+    <!-- Imagens -->
+
+     <img src="Ga" width="1000" height="655" alt="Texto Alternativo">
+
+    <br><br>
+
+    <!-- Listas -->
+
+    <p>Bebidas Disponeis no Projeto: </p>
+    <!-- Lista não ordenada -->
+    <ul>
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Água</li>
+    </ul>
+    <br>
+    
+    <p>Atividades Diárias:</p>
+    <!-- Lista Ordenada -->
+
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Estudar</li>
+        <li>Alimentar-se</li>
+    </ol>
+
+    <!-- Lista Descritiva -->
+
+    <dl>
+        <dt>Café</dt>
+        <dd> - com açúcar e sem açúcar </dd>
+        <dt>Chá</dt>
+        <dd> - com açúcar e sem açúcar</dd>
+        <dt>Água</dt>
+        <dd>Gelada e sem gelo</dd>
+    </dl>
+    <br><br>
+
+    <!-- Tabelas -->
+     <table>
+        <tr>
+            <th>Cidade</th>
+            <th>Quantidade de Alunos</th>
+            <th>Homens</th>
+            <th>Mulheres</th>
+        </tr>
+        <tr>
+            <td>Barra Bonita </td>
+            <td>13</td>
+            <td>8</td>
+            <td>5</td>
+        </tr>
+         <tr>
+            <td>Igaraçu do Tiete </td>
+            <td>7</td>
+            <td>6</td>
+            <td>1</td>
+        </tr>
+     </table>
+     <br><br>
+     <table>
+        <thead>
+                
+        </thead>
+        <tbody>
+
+        </tbody>
+     </table>
+     <br><br>
+
+     <!-- Container 
+        div
+        header  (Cabeçalho do baguio topo)
+        main
+        aside  ( Menu Lateral)
+        footer ("chão")
+        nav (Menu de Navegação)
+     -->
+      
+     <!-- Midias -->
+     <audio controls > <!--autoplay -->
+        <source src="Te Levar Daqui [WDZpM3Csigc].mp3" type="audio/mpeg">
+     </audio>
+
+     <video width="320" height="280" controls>
+        <source src="partoba1.mp4" type="video/mp4">
+     </video>
+
+     <h1>Trecho de um jogo </h1>
+
+     <video width="800" height="500" controls>
+        <source src="O Jogo Que Te Ama(1080P_60FPS)_001.mp4" type="video/mp4">
+     </video>
+  
+     <a href="https://www.youtube.com/watch?v=hv0VCSbo9RU" target="_blank">
+            <h1>O Link do video</h1> 
+     </a>
+     
+     <!-- Formulários -->
+      <form method="post" action="">
+          <!-- Campo de texto -->
+           <label for="nome">Nome:</label>
+           <input type="text" id="nome" required>
+        <br><br>
+           <!-- Campo de texto -->
+           <label for="email">Email:</label>
+           <input type="email" id="email" required>
+        <br><br>
+
+        <!-- Campo de Senha -->
+           <label for="Senha">Senha:</label>
+           <input type="password" id="senha" required>
+        <br><br>
+
+        <!-- Campo de Números -->
+           <label for="idade">Idade:</label>
+           <input type="number" id="idade" required>
+        <br><br>
+        
+        <!-- Campo de Data -->
+           <label for="data">Data de Nascimento:</label>
+           <input type="date" id="data" required>
+        <br><br>
+        
+        <!-- Campo de Data e Hora -->
+           <label for="dataHora">Data de Consulta:</label>
+           <input type="datetime-local" id="dataHora" required>
+        <br><br>
+
+        <!-- Campo de Seleção -->
+         <label for="pais">País:</label>
+         <select id="pais">
+            <option value="br">Brasil</option>
+            <option value="us">Estados Unidos</option>
+            <option value="pt">Portugal</option>
+         </select>
+
+         <!-- CheckBox -->
+          <div>
+            <input type="checkbox" id="newslatter" value="sim">
+            <label for="newslatter">Deseja receber newslatter?</label>
+          </div>
+
+          <!-- Radio -->
+          <div>
+            <label>Informe o seu sexo:</label><br>
+            <div>
+                <input type="radio" name="genero" id="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="naoInformado" checked>
+                <label for="naoInformado">Não Informar</label>
+            </div>
+          </div>
+        <br><br>
+        
+          <!-- Campos de Upload -->
+           <label for="arquivo">Arquivo</label>
+           <input type="file" id="arquivo" accept=".jpg,.png">
+        <br><br>
+
+          <!-- Campos seletor de cor -->
+           <label for="cor">Cor:</label>
+           <input type="color" id="cor">
+        <br><br>
+
+        <!-- Muito Texto - areas de texto -->
+         <label for="muitoTexto">Comentário</label>
+         <textarea id="muitoTexto" rows="5" cols="80"></textarea>
+
+          <!-- Botões -->
+           <input style="background-color: red;" type="reset" value="Limpar o Formulário">
+           <input type="submit" value="Enviar Dados">
+             
+      </form>
+
+      <br><br>
+
+      <h1 id="Prompts">Prompt:
+"Crie uma logo inspirada no estilo da marca Google. 
+O fundo deve ser branco. 
+O texto centralizado deve exibir a palavra 'Gabriggle' em letras minúsculas, com tipografia simples e amigável, semelhante à do Google.
+Use as mesmas cores icônicas do Google: azul (#4285F4), vermelho (#EA4335), amarelo (#FBBC05) e verde (#34A853), aplicadas de forma alternada nas letras.
+O design deve transmitir simplicidade, leveza e acessibilidade, mantendo o espírito da identidade visual do Google, mas adaptado para o nome Gabriggle."    </h1>
+      <br>
+<h1 id="Prompts">Prompt:"Crie uma logo minimalista e moderna inspirada no estilo da marca Netflix. O fundo deve ser preto sólido,
+     transmitindo sofisticação e contraste. No centro, exiba a palavra 'GABFLIX' em letras maiúsculas, 
+     com tipografia semelhante à da Netflix: linhas retas, sólidas e fortes. A cor principal das letras deve ser vermelho intenso (#E50914), 
+     aplicando um leve brilho ou sombra para dar profundidade. O design deve transmitir impacto, simplicidade e elegância, mantendo a identidade visual semelhante à Netflix,
+      mas adaptada para o nome Gabflix."</h1>
+</body>
+
+</html>
